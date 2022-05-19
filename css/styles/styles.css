@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+  }
+  
+  header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px
+  }
+  
+  p {
+    margin: 0;
+  }
+  /* Custom divider. Good */
+  .divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+    clear: right;
+  }
+  
+  .bold {
+    font-weight: 800;
+  }
+  /* Position of elements on page. Nice thing with SPAN) */
+  .right {
+    float: right;
+  }
+  /* LARGE OPTION FOR DIVIDERS */
+  .lg {
+    height: 10px;
+  }
+  /* LARGE and MEDIUM OPTION FOR DIVIDERS */
+  .lg, .md {
+    background-color: black;
+    border: 0;
+  }
+  /* MEDIUM OPTION FOR DIVIDERS */
+  .md {
+    height: 5px;
+  }
+  /* The rem unit stands for !!!root em!!!, 
+  and is RELATIVE to the font size of the html ELEMENT. */
+  .sm-text {
+    /* Create an .sm-text selector and set the font-size to 0.85rem, 
+    which would calculate to be roughly 13.6px 
+    (remember that you set your html to have a font-size of 16px). */
+    font-size: 0.85rem;
+  }
+  
+  .calories-info h1 {
+    margin: -5px -2px;
+    overflow: hidden;
+  }
+  
+  .calories-info span {
+    font-size: 1.2em;
+    margin-top: -7px;
+  }
+  
+  .indent {
+    margin-left: 1em;
+  }
+ /* dbl(double)  */
+  .dbl-indent {
+    margin-left: 2em;
+  }
+  /* Негативний CSS псевдоклас (en-US), :not (X) - функція, що приймає простий селектор X як аргумент. 
+  Він знаходить елементи, що не відповідають селектору. X не повинен містити інших негативних селекторів.
+  Negative CSS pseudo-class (en-US), :not(X) is a function that takes a simple X selector as an argument.
+   It finds elements that don't match the selector. X must not contain other negative selectors.*/
+  .daily-value p:not(.no-divider) {
+    border-bottom: 1px solid #888989;
+  }
+  
+  .note {
+    font-size: 0.6rem;
+    margin: 5px 0;
+  }

@@ -1,2 +1,2 @@
 # Nutrition-Table
- This is my studying project of nutrition table from freeCodeCamp
+ This is my studying project of nutrition lable from freeCodeCamp
